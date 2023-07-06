@@ -26,4 +26,3 @@ Hereafter some PLINK output files:
 - .hom: this is a file containing the locations of Runs of Homozygosity in the genome
 - .genome: contains identity-by-descent scores for pairs of individual. Can be used to infer family structure
 - .eigenvec and .eigenval: files used to plot the principle components of genetic data. Can be used to show genetic clustering of the individuals in your dataset.
-- 
