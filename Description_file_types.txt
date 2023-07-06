@@ -1,0 +1,29 @@
+Description file types used:
+
+PLINK relies on the use of files PED and MAP files:
+- .ped files describe per individual the family ID, the individual ID and, if present, the IDs of the parents, the sex and the phenotype. Additionally, it describes per SNP and per chromosome the nucleotide at that position.
+- .fam files describe information on the SNP itself. This includes the name of the SNP and it's genetic position, both in bp and (if provided) in centimorgans
+
+However, PLINK runs faster when you use the binary versions of these files. The binary version consists of three files:
+- .bim: contains information on the SNPs
+- .fam: contains family information
+- .bed: a binary file containing per marker the allele per SNP
+You can manipulate the values of the bim and fam files manually by opening them in Notepad or in e.g. Rstudio. Though you shouldn't remove rows or columns. Bed files can't be manipulated.
+
+SHAPEIT and BEAGLE generated phased haplotypes in:
+ - .vcf.gz This is a zipped file .vcf file, which stand for Variant calling format. More or less is it a merged version of the .bim, .fam and .bed files. Though the 0s and 1s are not nucleotides, but phased states. 
+
+Refined IBD used the .vcf files from BEAGLE and produces:
+- .ibd files: which includes what haplotypes are identical by descent
+
+ADMIXTURE generates the following files:
+- .Q 
+- .P 
+- .Q_se
+I only used the .Q files. These files contain per individual the amount of similarlity it has with the amount of genetics clusters you set. It also generate the genetics clusters itself. 
+
+Hereafter some PLINK output files:
+- .hom: this is a file containing the locations of Runs of Homozygosity in the genome
+- .genome: contains identity-by-descent scores for pairs of individual. Can be used to infer family structure
+- .eigenvec and .eigenval: files used to plot the principle components of genetic data. Can be used to show genetic clustering of the individuals in your dataset.
+- 
