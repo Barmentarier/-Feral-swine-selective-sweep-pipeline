@@ -1,3 +1,14 @@
+### Required Software and documentation
+Please note that I did not include all scripts used as many were used on multiple populations. Additionally, there were quite a few scripts used to clean the data. I refer the reader to the publication to fully recreate this study. Additionally, I did not describe in detail the code for the software other than R. Please check the original documentation.
+- PLINK: https://www.cog-genomics.org/plink/
+- SHAPEIT: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+- BEAGLE: http://faculty.washington.edu/browning/beagle/beagle.html
+- Refined IBD: https://faculty.washington.edu/browning/refined-ibd.html
+- ADMIXTURE: https://doi.org/10.1101/gr.094052.109
+- bcftools: https://samtools.github.io/bcftools/bcftools.html
+- ubuntu (these softwares all require a bash command line): https://help.ubuntu.com/
+
+## Software versions
 R version 4.3.0 (2023-04-21)
 	Packages:
 	- rres v1.1
