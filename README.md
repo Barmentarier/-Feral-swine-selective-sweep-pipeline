@@ -26,7 +26,7 @@ Download R from https://www.r-project.org/. R is a standalone language, but for 
 
 
 #### PLINK 
-PLink is a software to quickly filter and analyse genotype data e.g. SNP data. Download Plink from https://www.cog-genomics.org/plink/ and unzip the downloaded folder. Plink is run from the commandline (e.g. Bash). To check whether the download was succesful, run:
+PLink is a software to quickly filter and analyse genotype data e.g. SNP data. Download Plink from https://www.cog-genomics.org/plink/ and unzip the downloaded folder. Plink is run from the command line (e.g. Bash). To check whether the download was successful, run:
 
 ```plink -version``` or alternatively ```./plink -version```
 
@@ -37,15 +37,15 @@ Shapeit is a software that 'phases' genotype data to generate haplotypes. Downlo
 
 
 #### BEAGLE & Refined IBD
-Similar to Shapeit, Beagle, in combination with Refined IBD, also phases genotype data. However, Beagle allows assessing whether haplotypes are derived from the same ancestor haplotype. Download Beagle from https://faculty.washington.edu/browning/beagle/beagle.html. Beagle is dependent on java. To check whether the download was succesful, run for example:
+Similar to Shapeit, Beagle, in combination with Refined IBD, also phases genotype data. However, Beagle allows assessing whether haplotypes are derived from the same ancestor haplotype. Download Beagle from https://faculty.washington.edu/browning/beagle/beagle.html. Beagle is dependent on Java. To check whether the download was successful, run for example:
 ```java -Xmx32768m -jar beagle.21Apr21.304.jar```
 
-Download Refined IBD from https://faculty.washington.edu/browning/refined-ibd.html. Refined IBD is dependent on both java and Beagle. To check whether the download was succesful, run for example:
+Download Refined IBD from https://faculty.washington.edu/browning/refined-ibd.html. Refined IBD is dependent on both Java and Beagle. To check whether the download was successful, run for example:
 ```java -Xmx36409m -jar refined-ibd.17Jan20.102.jar```
 
 
 #### ADMIXTURE
-ADMIXTURE is used to infer genetic clusters. An individual can be part of multiple clusters. Download ADMIXTURE from http://dalexander.github.io/admixture/download.html/. To check whether the download was succesful, run:
+ADMIXTURE is used to infer genetic clusters. An individual can be part of multiple clusters. Download ADMIXTURE from http://dalexander.github.io/admixture/download.html/. To check whether the download was successful, run:
 ```admixture``` or ```./admixture```
 
 #### bcftools
