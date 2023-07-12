@@ -1,0 +1,22 @@
+R version 4.3.0 (2023-04-21)
+	Packages:
+	- rres v1.1
+	- tidyverse v2.0.0
+	- rehh v3.2.2
+	- vcf v1.14.0
+	- plyr v1.8.8
+	- stringr v1.5.0
+	- readxl v1.4.2
+	- devtools v2.4.3
+	- segmented v1.6.4
+	- colorBlindness v0.1.9
+	- dplyr v1.1.2
+	- tibble v3.2.1
+	- rstudioapi v0.14
+Rstudio 2023.06.0+421
+PLINK v1.90b6.21 64-bit
+ADMIXTURE Version 1.3.0
+BEAGLE: beagle.21Apr21.304.jar
+Refined-IBD: refined-ibd.17Jan20.102.jar
+SHAPEIT v2.r904
+bcftools v1.17
