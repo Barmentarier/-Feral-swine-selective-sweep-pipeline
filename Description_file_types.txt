@@ -26,3 +26,13 @@ Hereafter some PLINK output files:
 - .hom: this is a file containing the locations of Runs of Homozygosity in the genome
 - .genome: contains identity-by-descent scores for pairs of individual. Can be used to infer family structure
 - .eigenvec and .eigenval: files used to plot the principle components of genetic data. Can be used to show genetic clustering of the individuals in your dataset.
+
+
+Populations and annotations used in scripts:
+- GRSM (population wild pigs in the Great Smoky Mountain National Park)
+- k16: Western Heritage (this is a genetic cluster of pigs)
+- k17: European wild    (this is a genetic cluster of Wild boar)
+- k15: Asian            (this is a genetic cluster of Asian swine)
+- SC: South Carolina
+- TN: Tennessee
+- WV: West Virginia
