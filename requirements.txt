@@ -31,5 +31,5 @@ PLINK v1.90b6.21 64-bit
 ADMIXTURE Version 1.3.0
 BEAGLE: beagle.21Apr21.304.jar
 Refined-IBD: refined-ibd.17Jan20.102.jar
-SHAPEIT v2.r904
+SHAPEIT v2.r904 (I advise to download v5.0 instead: https://github.com/odelaneau/shapeit5/releases) 
 bcftools v1.17
