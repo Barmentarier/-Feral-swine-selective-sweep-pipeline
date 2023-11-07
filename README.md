@@ -33,7 +33,7 @@ PLink is a software to quickly filter and analyse genotype data e.g. SNP data. D
 #### SHAPEIT
 Shapeit is a software that 'phases' genotype data to generate haplotypes. Download SHAPEIT v2.0 from https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html#download. Unzip the folder with:
 ```tar -zxvf shapeit.v2.r900.glibcv2.17.linux.tar.gz```
-Note that this is an older version of SHAPEIT. Please find version 5.0 at (called 'phase_common'): https://github.com/odelaneau/shapeit5/releases 
+Note that this is an older version of SHAPEIT. Please find version 5.0 (called 'phase_common') at: https://github.com/odelaneau/shapeit5/releases 
 
 #### BEAGLE & Refined IBD
 Similar to Shapeit, Beagle, in combination with Refined IBD, also phases genotype data. However, Beagle allows assessing whether haplotypes are derived from the same ancestor haplotype. Download Beagle from https://faculty.washington.edu/browning/beagle/beagle.html. Beagle is dependent on Java. To check whether the download was successful, run for example:
