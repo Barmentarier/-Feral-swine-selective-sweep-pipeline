@@ -8,10 +8,9 @@ The pipeline generates population structure measurements, and markers and region
 #### Standalone:
 - R: https://www.r-project.org/
 - Rstudio: https://www.rstudio.com/categories/rstudio-ide/
-- PLINK: https://www.cog-genomics.org/plink/
-
 
 #### Bash-dependent:
+- PLINK: https://www.cog-genomics.org/plink/
 - SHAPEIT: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
 - BEAGLE: http://faculty.washington.edu/browning/beagle/beagle.html
 - Refined IBD: https://faculty.washington.edu/browning/refined-ibd.html
@@ -32,9 +31,9 @@ PLink is a software to quickly filter and analyse genotype data e.g. SNP data. D
 
 
 #### SHAPEIT
-Shapeit is a software that 'phases' genotype data to generate haplotypes. Download Plink from https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html#download. Unzip the folder with:
+Shapeit is a software that 'phases' genotype data to generate haplotypes. Download SHAPEIT v2.0 from https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html#download. Unzip the folder with:
 ```tar -zxvf shapeit.v2.r900.glibcv2.17.linux.tar.gz```
-
+Note that this is an older version of SHAPEIT. Please find version 5.0 at (called 'phase_common'): https://github.com/odelaneau/shapeit5/releases 
 
 #### BEAGLE & Refined IBD
 Similar to Shapeit, Beagle, in combination with Refined IBD, also phases genotype data. However, Beagle allows assessing whether haplotypes are derived from the same ancestor haplotype. Download Beagle from https://faculty.washington.edu/browning/beagle/beagle.html. Beagle is dependent on Java. To check whether the download was successful, run for example:
