@@ -2,7 +2,7 @@ Description file types used:
 
 PLINK relies on the use of PED and MAP files:
 - .ped files describe per individual the family ID, the individual ID and, if present, the IDs of the parents, the sex and the phenotype. Additionally, it describes per SNP and per chromosome the nucleotide at that position.
-- .fam files describe information on the SNP itself. This includes the name of the SNP and it's genetic position, both in bp and (if provided) in centimorgans
+- .map files describe information on the SNP itself. This includes the name of the SNP and it's genetic position, both in bp and (if provided) in centimorgans
 
 However, PLINK runs faster when you use the binary versions of these files. The binary version consists of three files:
 - .bim: contains information on the SNPs
