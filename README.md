@@ -1,7 +1,7 @@
 # -Feral-swine-selective-sweep-pipeline
 A pipeline to perform analyses provided in Barmentlo et al., 2024
 
-The pipeline generates population structure measurements, and markers and regions under selection. The pipeline is written for wildlife purposes and used on 60k SNP data. Note that especially the sweep analyses might not be appropriate with a different number of SNPs. Please assess the flowchart "Flowchart_selective_sweep.pdf" for the order in which the scripts should be used and "Description_file_types.txt" for some file descriptions. The code was used to generate the results from doi: (Not published yet, please email me if you're interested in the manuscript, n.w.g.barmentlo@vu.nl). I tried writing the pipeline and scripts in such a manner that e.g., an ecologist could use it without too much prior knowledge of genomic bioinformatics. Though this was very difficult, so if you have any questions, do not hesitate to contact me. 
+The pipeline generates population structure measurements, and markers and regions under selection. The pipeline has been written for wildlife purposes and used on 60k SNP data. Note that especially the sweep analyses might not be appropriate with a different number of SNPs. Please assess the flowchart "Flowchart_selective_sweep.pdf" for the order in which the scripts should be used and "Description_file_types.txt" for some file descriptions. The code was used to generate the results from doi: https://doi.org/10.1111/mec.17383. I tried writing the pipeline and scripts in such a manner that e.g., an ecologist could use it without too much prior knowledge of genomic bioinformatics. Though this was very difficult, so if you have any questions, do not hesitate to contact me. 
 
 
 ## Installation
